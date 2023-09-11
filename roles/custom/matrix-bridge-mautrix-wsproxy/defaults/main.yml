@@ -20,7 +20,7 @@ matrix_mautrix_wsproxy_port: 29331
 
 matrix_mautrix_wsproxy_appservice_address: "http://matrix-mautrix-wsproxy:{{ matrix_mautrix_wsproxy_port }}"
 
-matrix_mautrix_wsproxy_hostname: ""
+matrix_mautrix_wsproxy_hostname: "wsproxy.aininjas.xyz"
 
 # The base container network. It will be auto-created by this role if it doesn't exist already.
 matrix_mautrix_wsproxy_container_network: matrix-mautrix-wsproxy
